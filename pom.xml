@@ -120,6 +120,7 @@
   </dependencies>
 
   <modules>
+    <module>teamengine-ets-all</module>
     <module>ets-gpkg12</module>
   </modules>
 
