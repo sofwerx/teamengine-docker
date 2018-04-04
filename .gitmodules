@@ -1,0 +1,3 @@
+[submodule "ets-gpkg12"]
+	path = ets-gpkg12
+	url = git@github.com:bradh/ets-gpkg12.git
