@@ -121,7 +121,7 @@
 
   <modules>
     <module>teamengine-ets-all</module>
-    <module>ets-gpkg12</module>
+    <module>ets-gpkg12-rte</module>
   </modules>
 
 </project>

@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>teamengine-ets-all</artifactId>
+  <artifactId>teamengine-ets-gpkg12-rte</artifactId>
   <packaging>pom</packaging>
-  <name>TEAM Engine - Docker - ETS all</name>
+  <name>TEAM Engine - Docker - ETS GeoPackage 1.2</name>
   <description>
     Execution of TEAM Engine with Docker is enabled. This module enables the automatic creation of virtualization images
-    for running TEAM engine with all ETS on Docker.
+    for running TEAM engine with ETS GeoPackage 1.2 on Docker.
   </description>
 
   <parent>
@@ -30,8 +30,6 @@
   </build>
 
   <dependencies>
-
-    <!-- ETS GeoPackage 1.2 (bradh repo)-->
     <dependency>
       <groupId>org.opengis.cite</groupId>
       <artifactId>ets-gpkg12-rte</artifactId>
@@ -46,7 +44,6 @@
       <classifier>deps</classifier>
       <type>zip</type>
     </dependency>
-
   </dependencies>
 
 </project>

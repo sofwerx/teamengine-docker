@@ -1,3 +1,6 @@
-[submodule "ets-gpkg12"]
-	path = ets-gpkg12
-	url = git@github.com:bradh/ets-gpkg12.git
+[submodule "ets-gpkg12-rte"]
+	path = ets-gpkg12-rte
+	url = git@github.com:sofwerx/ets-gpkg12.git
+[submodule "teamengine"]
+	path = teamengine
+	url = git@github.com:opengeospatial/teamengine.git
